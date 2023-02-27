@@ -1,0 +1,10 @@
+.tdl-btn{
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh 1vw;
+    font-size: 1.5vh;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.tdl-tasklist{
+    display: inline-block;
+    background-color: white;
+    width: 56.75vw;
+    height: 39.25vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+table tbody{
+    display: block;
+    height: 20vh;
+    overflow-y: scroll;
+}
+
+table tbody::-webkit-scrollbar{
+    display: none;
+}
+
+table thead, table tbody tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table{
+    margin: auto;
+    margin-top: 3vh;
+    width: 40vw;
+    table-layout: fixed;
+}
+
+table thead tr th{
+    text-align: start;
+    font-size: 2.55vh;
+    font-weight: 600;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1.55vh;
+}
+
+table tbody tr td{
+    padding-top: 2.55vh;
+    word-wrap: break-word;
+}
+
+.tdl-state-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tdl-input{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 2.5vh;
+}
+
+.tdl-input::placeholder{
+    color: #4F4F4F;
+    font-size: 2vh;
+}
+
+.tdl-input:focus{
+    outline: none;
+}
+
+.tdl-hidden{
+    display: none;
+}

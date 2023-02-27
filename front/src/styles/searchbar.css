@@ -1,0 +1,28 @@
+.tdl-searchbar{
+    background-color: white;
+    border-radius: 10px;
+    width: 56.75vw;
+    height: 6.64vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6.5vh;
+    margin-top: 11.1vh;
+}
+
+.tdl-searchbar input{
+    border: none;
+    margin-left: 2.32vw;
+    margin-right: 3vw;
+    padding-bottom: 0.5vh;
+    border-bottom: 1px solid black;
+}
+
+.tdl-searchbar input::placeholder{
+    color: #4F4F4F;
+}
+
+.tdl-searchbar input:focus{
+    outline: none;
+    color: #4F4F4F;
+}

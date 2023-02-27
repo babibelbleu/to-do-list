@@ -1,0 +1,25 @@
+.tdl-status{
+    width: 7.43vw;
+    height: 4vh;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    background-color: #56CCF2;
+}
+
+.in-progress{
+    background-color: #F2C94C;
+}
+
+.done{
+    background-color: #6FCF97;
+}
+
+.late{
+    background-color: #EB5757;
+}

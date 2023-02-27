@@ -1,0 +1,22 @@
+.tdl-create-task{
+    margin-top: 2vh;
+    margin-left: 6vw;
+    margin-right: 8vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.tdl-create-task:hover{
+    cursor: pointer;
+}
+
+.span-add{
+    font-weight: 400;
+    font-size: 2vh;
+    color: #595858;
+}
+
+.span-add:hover{
+    opacity: 0.60;
+}

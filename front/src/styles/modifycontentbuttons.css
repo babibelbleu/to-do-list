@@ -1,0 +1,14 @@
+.tdl-modify-buttons{
+    display: flex;
+    gap: 1vw;
+}
+
+.tdl-img{
+    width: 1.75vw;
+    height: 1.75vw;
+    cursor: pointer;
+}
+
+.tdl-img:hover{
+    opacity: 0.60;
+}
